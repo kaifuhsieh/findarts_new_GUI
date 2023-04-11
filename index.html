@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="no-js">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>findARTs</title>
+        <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.css" />
+        <!-- 燈箱facybox -->
+        <!-- <link rel="stylesheet" type="text/css" href="vendor/fancybox/jquery.fancybox.min.css" /> -->
+        <!-- fancybox -->
+        <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.min.css" />
+        <!-- hyUI css -->
+        <link rel="stylesheet" href="css/findarts_website.min.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- favicon -->
+        <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+    </head>
+    <!-- 記得埋一個給國樑 -->
+    <body>
+        <!-- mobile nav -->
+        <div class="mobile_nav">
+            <div class="container">
+                <div class="language">
+                    <ul>
+                        <li>
+                            <a href="#">繁體中文</a>
+                        </li>
+                        <li>
+                            <a href="#">English</a>
+                        </li>
+                    </ul>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">關於FindARTs </a>
+                        </li>
+                        <li>
+                            <a href="#">應用服務案例 </a>
+                        </li>
+                        <li>
+                            <a href="#">媒體報導 </a>
+                        </li>
+                        <li>
+                            <a href="#">相關下載</a>
+                        </li>
+                        <li>
+                            <a href="#">聯絡我們</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="wrapper">
+            <!-- header -->
+            <header class="header">
+                <div class="container">
+                    <h1>
+                        <a href="#">
+                            <img src="images/logo.png" alt="" />
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">關於FindARTs </a>
+                            </li>
+                            <li>
+                                <a href="#">應用服務案例 </a>
+                            </li>
+                            <li>
+                                <a href="#">媒體報導 </a>
+                            </li>
+                            <li>
+                                <a href="#">相關下載</a>
+                            </li>
+                            <li>
+                                <a href="#">聯絡我們</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="language">
+                        <ul>
+                            <li>
+                                <a href="#">繁體中文</a>
+                            </li>
+                            <li>
+                                <a href="#">English</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- RWD menu -->
+                    <button class="btn_menu">
+                        <span class="topBar"></span>
+                        <span class="midBar"></span>
+                        <span class="btmBar"></span>
+                    </button>
+                </div>
+            </header>
+            <!-- hero -->
+            <div class="hero">
+                <div class="container">
+                    <div class="summary">
+                        <h2>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".2s">真</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".3s">跡</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".4s">唯</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".5s">一</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".7s">重</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".8s">現</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".9s">經</span>
+                            <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1s">典</span>
+                        </h2>
+                        <h3 class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+                            FindARTs 全球頂尖藝術顯示科技
+                        </h3>
+                        <p class="wow fadeInRight" data-wow-duration=".75s" data-wow-delay="1.5s">
+                            FindARTs
+                            為全球頂尖「藝術顯示科技整合服務」，提供藝術畫作、數位創作等原創作品以最佳數位藝術顯示，整合3大獨特技術包含博物館等級色彩標準圖像還原技術、A.R.T(A.R.T.
+                            – Advanced Reflectionless
+                            Technology)高端圖像色彩還原裝置、藝術原創作品圖像加密技術安全雲端平台，保存藝術真跡也同時打造藝術作品擴散推廣的渠道。應用服務範疇包含美術館藝廊異地策展、
+                            飯店商辦VIP
+                            Room、藝術展牆打造、資深藏家客製藝術精品等等，為您創造最佳藝術空間展示與永續服務方案，讓唯一真跡突破有限空間，創造無限體驗
+                        </p>
+                    </div>
+                    <div
+                        class="rotate-slider wow fadeInUp"
+                        data-wow-duration="1s"
+                        data-wow-delay=".5s"
+                        id="rotate-slider"
+                    >
+                        <div class="m_title">
+                            <h2>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".2s">真</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".3s">跡</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".4s">唯</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".5s">一</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".7s">重</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".8s">現</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay=".9s">經</span>
+                                <span class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1s">典</span>
+                            </h2>
+                            <h3 class="wow fadeInRight" data-wow-duration=".7s" data-wow-delay="1.2s">
+                                FindARTs 全球頂尖藝術顯示科技
+                            </h3>
+                        </div>
+
+                        <a href="#" target="_blank"><img src="images/slider_1.png" alt="" /></a>
+                        <a href="#" target="_blank"><img src="images/slider_2.png" alt="" /></a>
+                        <a href="#" target="_blank"><img src="images/slider_3.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+            <!-- solution -->
+            <section class="sec solution">
+                <div class="c-scrolldown">
+                    <div class="c-line"></div>
+                </div>
+                <div class="container">
+                    <h2 class="h2_title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+                        為您規劃絕佳的藝術展示方案
+                    </h2>
+                    <div class="solution_card">
+                        <div class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay=".75s">
+                            <a href="#">
+                                <h3>您有畫作或創作品嗎？ <small>讓圖像創作成為高貴數位禮品</small></h3>
+                                <div class="card">
+                                    <div class="img-container">
+                                        <span>藝術精品服務方案</span>
+                                        <img src="images/solution_1.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        可協助藝術創作作品，成為主題性精品、禮品、聯名數位禮盒、企業精品等，讓您可將喜愛的作品贈予、分享給重要貴賓，
+                                        最良好、博物館等級的藝術禮品
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay="1s">
+                            <a href="#">
+                                <h3>
+                                    想提升空間的藝術氛圍嗎？<small>企業大廳、商辦空間，展示系列藝術的空間服務</small>
+                                </h3>
+                                <div class="card">
+                                    <div class="img-container">
+                                        <span>藝術空間方案</span>
+                                        <img src="images/solution_2.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        提供名家授權畫作、攝影作品、數位創作最佳、最精緻展示效果，有助於提升空間質感，營造最舒適、商談畫題氛圍，舉例VIP
+                                        Room、Lobby、餐廳氛圍、會議空間、藝術展牆等
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay="1.25s">
+                            <a href="#">
+                                <h3>要重現難以取得的原作？<small>難以借展的原作也能重現在多地展示</small></h3>
+                                <div class="card">
+                                    <div class="img-container">
+                                        <span>藝術策展服務方案</span>
+                                        <img src="images/solution_3.jpg" alt="" />
+                                    </div>
+                                    <p>
+                                        具備專業色彩技術整合團隊，提供國際博物館等級最精細化畫作細節還原、色彩校正、光學記事調校等，提供無法於跨地域借展到現場的原作典藏畫作、高級收藏品等重現經典
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="solution_list">
+                        <ul>
+                            <li class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay=".5s">
+                                <h3>典藏畫作聯名</h3>
+                                <ul>
+                                    <li>藝術家聯名合作</li>
+                                    <li>畫作圖像授權合作</li>
+                                    <li>專業圖像加密管理技術</li>
+                                </ul>
+                            </li>
+                            <li class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay=".7s">
+                                <h3>名家經典創作套圖展示</h3>
+                                <ul>
+                                    <li>職人畫框訂製</li>
+                                    <li>專業團隊安裝</li>
+                                    <li>作品展示情境工具</li>
+                                    <li>策展企劃合作 & 專業導覽</li>
+                                </ul>
+                            </li>
+                            <li class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay=".9s">
+                                <h3>藝術品異地策展工具</h3>
+                                <ul>
+                                    <li>畫作數位化專業取像</li>
+                                    <li>職人畫框訂製</li>
+                                    <li>專業團隊安裝</li>
+                                    <li>作品展示情境工具</li>
+                                    <li>博物館級圖像處理/色彩校正</li>
+                                    <li>修復原作期間替代展示工具</li>
+                                </ul>
+                            </li>
+                            <li class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay="1.1s">
+                                <h3>企業禮品設計</h3>
+                                <ul>
+                                    <li>客製紀念卡</li>
+                                    <li>典藏認證證書</li>
+                                    <li>收藏圖鑑金鑰</li>
+                                </ul>
+                            </li>
+                            <li class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay="1.3s">
+                                <h3>數位典藏服務</h3>
+                                <ul>
+                                    <li>畫作數位化專業取像</li>
+                                    <li>博物館級圖像處理</li>
+                                    <li>光學量測色彩校正技術</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="c-scrolldown bottom">
+                    <div class="c-line"></div>
+                </div>
+            </section>
+            <!-- technology -->
+            <section class="sec technology">
+                <div class="container">
+                    <h2 class="h2_title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+                        我們的技術核心
+                        <small>整合3大專業級藝術顯示科技管理系統</small>
+                    </h2>
+                    <div class="tech_content">
+                        <div class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay=".5s">
+                            <div class="circle">
+                                <span>A.R.T 擬真藝屏</span>
+                            </div>
+                            <div class="pic">
+                                <img src="images/img_compare_1.png" alt="" />
+                            </div>
+                            <div class="tech_info">
+                                <ul>
+                                    <li>
+                                        獨家前瞻抗反射技術<br />
+                                        (Advanced Reflectionless Tech.)
+                                    </li>
+                                    <li>極廣色域/超高解析度</li>
+                                    <li>極舒適視覺觀看效果</li>
+                                    <li>多尺寸應用(17”/32”/85”)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item wow fadeInLeft" data-wow-duration=".75s" data-wow-delay="1s">
+                            <div class="circle">
+                                <span>內容管理保護機制</span>
+                            </div>
+                            <div class="pic">
+                                <img src="images/img_tech_02.jpg" alt="" />
+                            </div>
+                            <div class="tech_info">
+                                <ul>
+                                    <li>美國FADGI 四星等級翻拍服務</li>
+                                    <li>數位版權管理保護機制(DRM)</li>
+                                    <li>圖像加密金鑰硬體鎖 (Key Pro)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item wow fadeInRight" data-wow-duration=".75s" data-wow-delay="1.5s">
+                            <div class="circle">
+                                <span>圖像展示與<br />雲端推播系統</span>
+                            </div>
+                            <div class="pic">
+                                <img src="images/img_cloudsystem.png" alt="" />
+                            </div>
+                            <div class="tech_info">
+                                <ul>
+                                    <li>藝術內容撥放&導覽系統</li>
+                                    <li>獨家色彩校準演算法</li>
+                                    <li>雲端內容推播/排程系統</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- certification -->
+            <section class="sec certification wow fadeInUp" data-wow-duration=".75s" data-wow-delay=".75s">
+                <div class="container">
+                    <h2 class="wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">世界級認證</h2>
+                    <div class="certification_slider wow fadeInUp" data-wow-duration=".75s" data-wow-delay="1.5s">
+                        <div class="item">
+                            <div class="img-container">
+                                <img src="images/img_mark_1.jpg" alt="" />
+                            </div>
+                            <span>TIPA WORLD AWARD 2020</span>
+                        </div>
+                        <div class="item">
+                            <div class="img-container">
+                                <img src="images/img_mark_2.jpg" alt="" />
+                            </div>
+                            <span
+                                >SID2021-People’s choice AwardBest New Display ComponentA.R.T. film/glass display</span
+                            >
+                        </div>
+                        <div class="item">
+                            <div class="img-container">
+                                <img src="images/img_mark_3.jpg" alt="" />
+                            </div>
+                            <span>稀世珍藏美國FADGI最高四星級ISO最高等取像</span>
+                        </div>
+                        <div class="item">
+                            <div class="img-container">
+                                <img src="images/img_mark_4.jpg" alt="" />
+                            </div>
+                            <span>世界級校色技術color accuracy符合ISO 12646:2015標準 (recommend performance)</span>
+                        </div>
+                        <div class="item">
+                            <div class="img-container">
+                                <img src="images/img_mark_5.jpg" alt="" />
+                            </div>
+                            <span>國際醫學期刊驗證  對眼睛舒適無眩光感</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service -->
+            <section class="sec service">
+                <div class="container">
+                    <h2 class="h2_title wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+                        服務案例
+                        <small
+                            >累積至目前為止超過百件經典畫作、原作授權合作，服務擴散至全球 6
+                            個國家外，解決方案更於國內北中南亮點應用場域、藝術策展、VVIP營業等空間，創造百萬等級專業服務，衍伸藝術服務與展示空間無限應用價值</small
+                        >
+                    </h2>
+                    <div class="service_content">
+                        <div class="item wow fadeInUp" data-wow-duration=".75s" data-wow-delay=".75s">
+                            <div class="pic">
+                                <div class="img-container">
+                                    <span>場域服務案例</span>
+                                    <img src="images/service_01.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h3>第一銀行高資產理財旗鑑中心</h3>
+                                <p>
+                                    FindARTs
+                                    藝術空間方案為第一銀行打造頂級客戶理財旗艦中心，為原尊榮禮遇場所提升更高端服務品質與顧客服務體驗，使貴賓入場即感受到無與倫比的高質感藝文氣息，成功增進銀行與貴賓間的互動交流，享受銀行的高品質細緻服務
+                                </p>
+                                <div class="tag">
+                                    <ul>
+                                        <li>
+                                            <a href="#">藝文空間規劃</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">藝屏租賃</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">數位內容授權</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">畫框訂製</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="more">閱讀更多</a>
+                            </div>
+                        </div>
+                        <div class="item wow fadeInUp" data-wow-duration=".75s" data-wow-delay="1s">
+                            <div class="pic">
+                                <div class="img-container">
+                                    <span>場域服務案例</span>
+                                    <img src="images/service_02.jpg" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h3>奇美博物館-《時代的臉孔》異地策展</h3>
+                                <p>
+                                    FindARTs
+                                    策展服務方案為「奇美博物館」展示未能從海外博物館借出之2件重要藝術作品/展品—亨利八世與伊莉莎白二世，促進兩館合作及策展單位展覽順利展出
+                                </p>
+                                <div class="tag">
+                                    <ul>
+                                        <li>
+                                            <a href="#">博物館級圖像處理</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">策展工具</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">展示情境</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">獨家色彩校準演算法</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="more">閱讀更多</a>
+                            </div>
+                        </div>
+                        <div class="item wow fadeInUp" data-wow-duration=".75s" data-wow-delay="1.25s">
+                            <div class="pic">
+                                <div class="img-container">
+                                    <span>內容服務案例</span>
+                                    <img src="images/service_03.png" alt="" />
+                                </div>
+                            </div>
+                            <div class="info">
+                                <h3>名家授權 藝廊集錦經典套圖</h3>
+                                <p>
+                                    FindARTs
+                                    深耕服務藝術與內容創作作品，提供名家經典創作套圖、世界博物館、國際大師等授權套圖，讓您藉藝術創作體驗各類型經典畫作、高端攝影作品、古典油彩等等，在任何空間皆可享受博物館典藏，享受國際藝文之旅
+                                </p>
+                                <div class="tag">
+                                    <ul>
+                                        <li>
+                                            <a href="#">世界館藏</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">台灣經典</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">國際大師</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">畫框訂製</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="more">閱讀更多</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- footer -->
+            <footer>
+                <div class="container">
+                    <div class="footer_logo">
+                        <img src="images/logo.png" alt="" />
+                    </div>
+                    <div class="contact">
+                        <h4>Contact US</h4>
+                        <p>聯絡我 讓我知道您的需求</p>
+                        <a mailto="service@findarts.net">service@findarts.net</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <a href="javascript:;" class="scrollToTop">回頁首</a>
+        <script src="js/jquery-3.6.0.min.js"></script>
+    </body>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="vendor/jquery.easing.min.js"></script>
+    <script src="vendor/lazyload/lazyload.js"></script>
+    <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+    <script src="js/customize.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        //lazyload
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: 'img.lazy',
+            //placeholder: '/images/basic/placeholder.gif',
+            effect: 'fadeIn',
+            fadeTime: 600,
+            threshold: 0,
+        });
+        //$('.fancybox').fancybox();
+    </script>
+    <!-- <script>
+        document.oncontextmenu = function () {
+            window.event.returnValue = false; //將滑鼠右鍵事件取消
+        };
+    </script> -->
+</html>
